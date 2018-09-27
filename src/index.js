@@ -135,6 +135,7 @@ class Main extends React.Component{
 						isPrime={this.state.isPrime}
 					/>
 					<h2> {this.state.counter.minus(1).toString(10)}</h2>
+					<p> seconds have passed since {genesis_date.toLocaleString("he-IL")} </p>
 				</div>
 			);
 		// }
